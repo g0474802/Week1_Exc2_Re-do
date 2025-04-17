@@ -10,14 +10,14 @@ namespace Exc1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your first name?");//to get first name
-            string firstName = Console.ReadLine()//to get first name
-            Console.WriteLine("What is your last name?");//to get last name
-            string lastName = Console.ReadLine();//to get last name
-            Console.WriteLine("What is your age?");//to get age
-            string age = Console.ReadLine();//to get age
-            Console.WriteLine("What is your favorite color?");//to get colors
-            string favColor = Console.ReadLine();//to get colors
+            Console.WriteLine("What is your first name?");//Prompts user to input first name
+            string firstName = Console.ReadLine()//Gets first name from user
+            Console.WriteLine("What is your last name?");//Prompts user to input last name
+            string lastName = Console.ReadLine();//Gets last name from user
+            Console.WriteLine("What is your age?");////Prompts user to input age
+            string age = Console.ReadLine();//Gets age from user
+            Console.WriteLine("What is your favorite color?");//Prompts user to input favorite color
+            string favColor = Console.ReadLine();//Gets color from user
             Console.WriteLine("Hello " + firstName + " " + lastName + " you are " + age + " and your favorite color is " + favColor + ".");//final output
         }
     }
